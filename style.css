@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #252424;
+  color: rgb(247, 239, 239);
+  font-family: sans-seriffont;
+  font-weight: 900;
+}
+
+.first {
+  width: 500px;
+  height: 50px;
+  background: rgb(199, 34, 158);
+  padding: 50px;
+  border: red solid 5px;
+  box-sizing: content-box;
+}
+
+.scale {
+  width: 500px;
+  height: 50px;
+  background: rgb(161, 216, 11);
+}
+
+.second {
+  width: 500px;
+  height: 50px;
+  background: tomato;
+  box-sizing: border-box;
+  padding: 25px;
+  border: red solid 5px;
+}
